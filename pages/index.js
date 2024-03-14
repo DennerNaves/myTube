@@ -6,6 +6,7 @@ import { GlobalStyle } from 'globalStyle';
 function Homepage(){
     return(
         <div>  
+            <GlobalStyle />
             <Menu />
             <Header />
             <Timeline />
@@ -16,4 +17,3 @@ function Homepage(){
 }
 
 export default Homepage
-//            <GlobalStyle />
