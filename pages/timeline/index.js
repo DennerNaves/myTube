@@ -1,5 +1,5 @@
 import jsdata from '../../jsdata.json';
-import { StyledTimeline } from './styled';
+import StyledTimeline from './styled';
 
 function Timeline () {
     const playlistNames = Object.keys(jsdata.playlists);

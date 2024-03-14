@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledMenu = styled.header`
+const StyledMenu = styled.header`
     background-color: #FFFFFF;
     display: flex;
     width: 100%;
@@ -20,3 +20,5 @@ export const StyledMenu = styled.header`
         fill: #222222;
     }
 `
+
+export default StyledMenu;

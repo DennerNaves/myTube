@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledHeader = styled.div`
+const StyledHeader = styled.div`
     img {
         width: 80px;
         height: 80px;
@@ -15,3 +15,5 @@ export const StyledHeader = styled.div`
        gap: 16px;
     }
 `
+
+export default StyledHeader;

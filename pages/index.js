@@ -1,7 +1,7 @@
 import Header from 'header';
 import Timeline from 'timeline';
 import Menu  from 'menu';
-import { GlobalStyle } from 'globalStyle';
+import GlobalStyle from 'globalStyle';
 
 function Homepage(){
     return(

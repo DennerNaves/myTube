@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledTimeline = styled.div`
+const StyledTimeline = styled.div`
     flex: 1;
     width: 100%;
     padding: 16px;
@@ -50,3 +50,5 @@ export const StyledTimeline = styled.div`
         }
     }
 `
+
+export default StyledTimeline;

@@ -1,5 +1,5 @@
 import jsdata from '../../jsdata.json';
-import { StyledHeader } from './styled';
+import StyledHeader from './styled';
 
 function Header () {
     return (
