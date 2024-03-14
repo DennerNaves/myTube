@@ -1,0 +1,15 @@
+{
+    "name": "Denner Augusto Naves da Silva",
+    "job": "Front-end developer",
+    "github": "DennerNaves",
+    "playlists": {
+        "games": [
+            {
+                "title": "Teste",
+                "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
+                "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+            }
+        ]
+    }
+}
+
