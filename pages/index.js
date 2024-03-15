@@ -1,19 +1,22 @@
+import { useState } from 'react';
 import Header from 'header';
 import Timeline from 'timeline';
 import Menu  from 'menu';
 import GlobalStyle from 'globalStyle';
 
 function Homepage(){
+    const [searchValue, setSearchValue] = useState('');
+
     return(
         <div>  
             <GlobalStyle />
-            <Menu />
+            <Menu searchValue={searchValue} setSearchValue={setSearchValue} />
             <Header />
-            <Timeline />
+            <Timeline searchValue={searchValue}/>
 
         </div>
        
     )
 }
 
-export default Homepage
+export default Homepage;

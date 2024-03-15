@@ -14,6 +14,16 @@ const StyledHeader = styled.div`
        padding: 16px 32px;
        gap: 16px;
     }
+
+    span {
+        font-size: var(--font-size-big);
+        font-weight: var(--font-weight-title);
+    }
+
+    p {
+        font-size: var(--font-size-normal);
+        font-weight: var(--font-weight-normal);
+    }
 `
 
 export default StyledHeader;

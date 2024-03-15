@@ -2,6 +2,19 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     /*Reset*/
+
+    :root{
+        --font-size-big: 20px;
+        --font-size-title: 18px;
+        --font-size-normal: 15px;
+        --font-weight-title: 700;
+        --font-weight-normal: 500;
+        --font-color: #222222;
+        --color-light-grey: #c2c2c2;
+        --color-medium-grey: #a1a1a1;
+        --color-strong-grey: #757575;
+    }
+    
     * {
         margin: 0;
         padding: 0;
@@ -9,7 +22,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        font-family: sans-serif;
+        font-family: Arial;
+        color: #222222;
     }
 
     html {

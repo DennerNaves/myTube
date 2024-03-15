@@ -2,14 +2,65 @@
     "name": "Denner Augusto Naves da Silva",
     "job": "Front-end developer",
     "github": "DennerNaves",
-    "playlists": {
-        "games": [
-            {
-                "title": "Teste",
-                "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
-                "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
-            }
-        ]
-    }
+    "background": "https://images.unsplash.com/photo-1583484963886-cfe2bff2945f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "playlists":
+        {
+            "Jogos": [
+                {
+                    "title": "FLEX DAS ESTRELAS e o Sylas do patrocínio",
+                    "url": "https://youtu.be/Fakz0zFmEHY",
+                    "thumb": "https://img.youtube.com/vi/Fakz0zFmEHY/hqdefault.jpg"
+                },
+                {
+                    "title": "React: Fábrica de Pratas - Tente não rir com o Gaules: Será que ele riu???",
+                    "url": "https://youtu.be/8w5csFBvV38",
+                    "thumb": "https://img.youtube.com/vi/8w5csFBvV38/hqdefault.jpg"
+                },
+                {
+                    "title": "D E V I L C R A N K?",
+                    "url": "https://youtu.be/hF-eyAGo5Tk",
+                    "thumb": "https://img.youtube.com/vi/hF-eyAGo5Tk/hqdefault.jpg"
+                },
+
+                {
+                    "title": "Quem bane Jayce?",
+                    "url": "https://youtu.be/MEt9tc9Q5-A",
+                    "thumb": "https://img.youtube.com/vi/MEt9tc9Q5-A/hqdefault.jpg"
+                },
+                {
+                    "title": "GAULES E LETT MOSTRANDO O NOVO APARTAMENTO DOS SONHOS!!",
+                    "url": "https://youtu.be/Tpf6uiWO6Yc",
+                    "thumb": "https://img.youtube.com/vi/Tpf6uiWO6Yc/hqdefault.jpg"
+                },
+                {
+                    "title": "ESSE JOGO NÃO COMEÇA!",
+                    "url": "https://youtu.be/fNGt-356g1k",
+                    "thumb": "https://img.youtube.com/vi/fNGt-356g1k/hqdefault.jpg"
+                }
+            ],
+            "Programação": [
+                {
+                    "title": "Gerenciamento de estado no React (por que não uso mais Redux)",
+                    "url": "https://youtu.be/unfHrB2sGGM",
+                    "thumb": "https://img.youtube.com/vi/unfHrB2sGGM/hqdefault.jpg"
+                },
+                {
+                    "title": "Como desenvolver boas práticas de programação? com Fabio Akita",
+                    "url": "https://youtu.be/GUanHEGlje4",
+                    "thumb": "https://img.youtube.com/vi/GUanHEGlje4/hqdefault.jpg"
+                },
+                {
+                    "title": "O melhor jeito de armazenar dados locais? (nova lib?)",
+                    "url": "https://youtu.be/ZSzEf7-6EsA",
+                    "thumb": "https://img.youtube.com/vi/ZSzEf7-6EsA/hqdefault.jpg"
+                },
+
+                {
+                    "title": "Como fazer um bom portfólio em tecnologia com Diogo Pires",
+                    "url": "https://youtu.be/gu1OXrirC0U",
+                    "thumb": "https://img.youtube.com/vi/gu1OXrirC0U/hqdefault.jpg"
+                }
+            ]
+        }
 }
 

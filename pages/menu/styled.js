@@ -6,18 +6,16 @@ const StyledMenu = styled.header`
     width: 100%;
     flex-direction: row;
     height: 56px;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 16px;
+    padding: 0 40px;
+    box-shadow: 0px 4px 6px 3px rgba(0, 0, 0, 0.15);
     gap: 16px;
 
     .logo {
-        width: 100%;
-        max-width: 80px;
-    }
-
-    .text {
-        fill: #222222;
+        left: 0;
+        margin-top: 20px;
+        position: absolute;
     }
 `
 

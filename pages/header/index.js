@@ -1,9 +1,11 @@
 import jsdata from '../../jsdata.json';
 import StyledHeader from './styled';
+import Banner from './components/Banner'
 
 function Header () {
     return (
         <StyledHeader>
+            <Banner />
             <section className='user-info'>
                 <img src={`https://github.com/${jsdata.github}.png`}/>
 
@@ -16,4 +18,4 @@ function Header () {
     )
 }
 
-export default Header
+export default Header;

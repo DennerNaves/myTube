@@ -36,6 +36,24 @@ const StyledTimeline = styled.div`
             grid-auto-columns: minmax(200px, 1fr);
             overflow-x: auto;
             scroll-snap-type: x mandatory;
+            margin-left: 15px;
+
+            &::-webkit-scrollbar {
+                height: 7px;
+            };
+            &::-webkit-scrollbar-track {
+                background: var(--color-light-grey);
+                padding: 5px;
+
+            };
+            &::-webkit-scrollbar-thumb {
+                background: var(--color-medium-grey);
+                border-radius: 14px;
+                 box-shadow: inset 0 0 2px grey;
+            };
+            &::-webkit-scrollbar-thumb:hover {
+                background: var(--color-strong-grey);
+            }
 
             a {
                 scroll-snap-align: start;
@@ -44,9 +62,18 @@ const StyledTimeline = styled.div`
                     padding-top: 8px;
                     display: block;
                     padding-right: 24px;
-                    color: #222222;
+                    font-size: var(--font-size-normal);
+                    font-weight: var(--font-weight-normal);
+                    color: var(--font-color);
+                    margin-bottom: 10px;
                 }
             }
+  
+        }
+
+        h2 {
+            font-size: var(--font-size-title);
+            font-weight: var(--font-weight-title);
         }
     }
 `

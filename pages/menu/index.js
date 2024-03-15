@@ -1,12 +1,17 @@
+import Searchbar from './components/Searchbar';
 import StyledMenu from './styled';
-import Skinner_notfound_error from '../assets/skinner_404_error.png';
+import Logo from './components/Logo';
 
-function Menu () {
+function Menu ({searchValue, setSearchValue}) {
+
     return (
         <StyledMenu>
-                <img src={Skinner_notfound_error}/>
+            <div>
+                <Logo />
+            </div>
+            <Searchbar searchValue={searchValue} setSearchValue={setSearchValue} />
         </StyledMenu>
     )
 }
 
-export default Menu
+export default Menu;

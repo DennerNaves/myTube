@@ -1,21 +1,21 @@
 import jsdata from '../../jsdata.json';
 import StyledTimeline from './styled';
 
-function Timeline () {
+function Timeline ({searchValue}) {
     const playlistNames = Object.keys(jsdata.playlists);
 
     return (
         <StyledTimeline>
             {playlistNames.map((name) => {
                     return (
-                        <section>
+                        <section key={name}>
                             <h2>
                                 {name}
                             </h2>
                             <div>
-                                {jsdata.playlists[name].map((video) => {
+                                {jsdata.playlists[name].filter((video) => video.title.toLowerCase().includes(searchValue.toLowerCase())).map((video) => {
                                     return (
-                                        <a href={video.url}>
+                                        <a href={video.url} key={video}>
                                             <img src={video.thumb}/>
                                             <span>
                                                 {video.title}
@@ -32,4 +32,4 @@ function Timeline () {
     )
 }
 
-export default Timeline
+export default Timeline;
