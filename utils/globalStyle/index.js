@@ -8,11 +8,12 @@ const GlobalStyle = createGlobalStyle`
         --font-size-title: 18px;
         --font-size-normal: 15px;
         --font-weight-title: 700;
-        --font-weight-normal: 500;
+        --font-weight-normal: 600;
         --font-color: #222222;
         --color-light-grey: #c2c2c2;
         --color-medium-grey: #a1a1a1;
         --color-strong-grey: #757575;
+        overflow: hidden;
     }
     
     * {
@@ -23,7 +24,8 @@ const GlobalStyle = createGlobalStyle`
 
     body {
         font-family: Arial;
-        color: #222222;
+        background-color: ${({theme}) => theme.backgroundBase};
+        color: ${({theme}) => theme.textColorBase};
     }
 
     html {

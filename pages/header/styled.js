@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const StyledHeader = styled.div`
+    background-color: ${({theme}) => theme.backgrondLevel1};
+
     img {
         width: 80px;
         height: 80px;
