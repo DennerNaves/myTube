@@ -13,8 +13,17 @@ const StyledHeader = styled.div`
        display: flex;
        align-items: center;
        width: 100%;
-       padding: 16px 32px;
+       padding: 16px 50px;
        gap: 16px;
+       justify-content: space-between;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
     }
 
     span {

@@ -7,13 +7,14 @@ import StyledHome from './styled';
 import jsdata from '../jsdata.json';
 import SetData from '../utils/services/setData';
 import { ModalContext } from '../utils/modalProvider';
-import FormsModal from 'timeline/components/FormsModal';
+import AddVideo from 'timeline/components/addVideo';
+import AddPlaylist from 'timeline/components/addPlaylist';
 
 function Homepage(){
     const [searchValue, setSearchValue] = useState(' ');
     const [loading, setLoading] = useState(true);
     const modalState = useContext(ModalContext);
-
+    
     useEffect(() => {
         setLoading(false);
         SetData('@Data', jsdata.playlists);
@@ -28,7 +29,13 @@ function Homepage(){
                 <Timeline searchValue={searchValue}/>
                 <Footer />
             </StyledHome>
-            {modalState.open && <FormsModal />}
+            {modalState.open && modalState.id == 'addVideo' && 
+                <AddVideo />
+            }
+            {modalState.open && modalState.id == 'addPlaylist' &&
+                <AddPlaylist />
+            }
+
         </div>
        
     )

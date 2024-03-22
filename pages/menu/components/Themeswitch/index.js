@@ -1,7 +1,6 @@
 import { useContext} from 'react';
 import StyledSwitch from './styled';
-import LightModeIcon from '@mui/icons-material/LightMode';
-import ModeNightIcon from '@mui/icons-material/ModeNight';
+import { IoIosSunny, IoIosMoon  } from "react-icons/io";
 import { ThemeModeContext } from '../../../../utils/themeModeProvider';
 
 const Themeswitch = () => {
@@ -13,8 +12,8 @@ const Themeswitch = () => {
             <label
                 htmlFor='darkmode'
                 className='darkmode-switch'>
-                <span><ModeNightIcon style={{color: 'yellow', width: '20px', height: '20px'}}/></span>
-                <span><LightModeIcon style={{color: 'orange', width: '20px', height: '20px'}}/></span>
+                <span><IoIosMoon  style={{color: 'yellow', width: '20px', height: '20px'}}/></span>
+                <span><IoIosSunny style={{color: 'orange', width: '20px', height: '20px'}}/></span>
             </label>
         </StyledSwitch>
     )

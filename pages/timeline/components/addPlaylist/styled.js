@@ -15,7 +15,7 @@ const StyledForms = styled.div`
         width: 70%;
     }
 
-    div {
+    .containerTitle {
         height: 80px;
         display: flex;
         align-items: center;
@@ -23,7 +23,17 @@ const StyledForms = styled.div`
         flex-direction: row;
         padding: 25px 40px;
         flex-direction: row;
+        width: 600px;
+        flex-direction: row;
+        border-radius: 8px;
+    }
+
+    .containerInput {
         width: 100%;
+        height: 460px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .inputsContainer {
@@ -33,19 +43,28 @@ const StyledForms = styled.div`
     }
 
     .closeButton {
-        width: 20px;
-        height: 20px;
+        width: 26px;
+        height: 26px;
         padding: 0;
         color: ${({theme}) => theme.textColorBase};
         cursor: pointer;
 
         :hover {
-            color: ${(props) => props.themeMode == 'light'? "#919191" : "#d9d9d9"}
+             color: ${({theme}) => theme.buttonBackgroundHover};
         }
     }
 
     .addButtonContainer {
         justify-content: flex-end;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 25px 40px;
+        flex-direction: row;
+        width: 100%;
+        flex-direction: row;
+        border-radius: 8px;
     }
 
     .addButton {
@@ -56,9 +75,16 @@ const StyledForms = styled.div`
         padding: 7px 15px;
         font-size: var(--font-size-normal);
         font-weight: var(--font-weight-title);
-        background-color: ${({theme}) => theme.textColorBase};
-        color: ${(props) => props.themeMode == 'light'? "#FFFFFF" : "#222222"};
+        background-color: ${({theme}) => theme.buttonBackground};
+        color: ${({theme}) => theme.buttonText};
         cursor: pointer;
+        border-radius: 8px;
+
+        &:hover,
+        &:focus {
+                background-color: ${({theme}) => theme.buttonBackgroundHover};
+                color: ${({theme}) => theme.buttonTextHover};
+        }
     }
 `
 

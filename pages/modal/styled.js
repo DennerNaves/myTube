@@ -13,7 +13,7 @@ const StyledBackground = styled.div`
     align-items: center;
     color:  ${({theme}) => theme.textColorBase};
 
-    div {
+    .backgroundContainer {
       width: 600px;
       height: 620px;
       background-color: ${({theme}) => theme.backgrondLevel1};
@@ -23,9 +23,8 @@ const StyledBackground = styled.div`
       align-items: center;
       justify-content: space-between;
       gap: 40px;
+      
     }
 `
 
 export default StyledBackground;
-
-//${({theme}) => theme.borderBase}

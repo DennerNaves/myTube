@@ -12,6 +12,10 @@ const theme = {
         modalBackground: 'rgba(0, 0, 0, 0.4)',
         borderBase: '#e5e5e5',
         textColorBase: '#222222',
+        buttonBackground: '#222222',
+        buttonText: '#FFFFFF',
+        buttonBackgroundHover: '#cccccc',
+        buttonTextHover: '#222222',
 
     },
     dark: {
@@ -21,6 +25,10 @@ const theme = {
         modalBackground: 'rgba(0, 0, 0, 0.7)',
         borderBase: '#383838',
         textColorBase: '#FFFFFF',
+        buttonBackground: '#FFFFFF',
+        buttonText: '#222222',
+        buttonBackgroundHover: '#cccccc',
+        buttonTextHover: '#FFFFFF',
     }
 }
 

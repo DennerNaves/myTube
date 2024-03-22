@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import StyledSearchbar from './styled';
-import SearchIcon from '@mui/icons-material/Search';
+import { FaSearch } from "react-icons/fa";
 
 const Searchbar = ({searchValue, setSearchValue}) => {
 
@@ -8,7 +8,7 @@ const Searchbar = ({searchValue, setSearchValue}) => {
         <StyledSearchbar>
             <input type='text' onChange={(e) => setSearchValue(e.target.value)} value={searchValue}/>
             <div>
-                <SearchIcon />
+                <FaSearch />
             </div>
         </StyledSearchbar>
     )
