@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledForms = styled.div`
+const StyledForms = styled.form`
    h2 {
         font-size: var(--font-size-title);
         font-weight: var(--font-weight-title);
@@ -28,12 +28,44 @@ const StyledForms = styled.div`
         border-radius: 8px;
     }
 
-    .containerInput {
+    .containerForms{
         width: 100%;
         height: 460px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .containerInput {
+        width: 70%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+
+        .errorMessage {
+            font-size: var(--font-size-small);
+            font-weight: var(--font-weight-normal);
+            color: var(--color-light-red);
+            margin-left: 12px;
+        }
+
+        input {
+            width: 100%;
+            margin-top: 4px;
+        }
+
+        .label {
+            font-size: var(--font-size-medium);
+            font-weight: var(--font-weight-normal);
+            margin-left: 4px;
+            color: var(--font-color);
+        }
+
+        label {
+            width: 100%;
+        }
     }
 
     .inputsContainer {

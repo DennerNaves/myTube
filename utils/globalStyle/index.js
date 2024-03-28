@@ -6,6 +6,8 @@ const GlobalStyle = createGlobalStyle`
     :root{
         --font-size-big: 20px;
         --font-size-title: 18px;
+        --font-size-small: 11px;
+        --font-size-medium: 13px;
         --font-size-normal: 15px;
         --font-weight-title: 700;
         --font-weight-normal: 600;
@@ -13,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
         --color-light-grey: #c2c2c2;
         --color-medium-grey: #a1a1a1;
         --color-strong-grey: #757575;
+        --color-light-red: #ff3d3d;
         overflow: hidden;
     }
     
